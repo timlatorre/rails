@@ -1,0 +1,6 @@
+<% @stocks.each do |x| %>
+<div class="stock_box">
+	<span class="symbol"><%= x.symbol %></span><br>
+	<%= number_to_currency(x.lastTrade) %>
+</div><!-- .stock_box -->
+<% end %>

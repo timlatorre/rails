@@ -1,0 +1,16 @@
+.warp
+{
+	color: #ff0000;
+}
+
+.travel
+{
+	color: #0000ff;
+}
+
+.awesome {
+	font-family: cursive;
+	border: 3px double green;
+	font-size: 10px;
+	background-color: #232323;
+}
