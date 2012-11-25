@@ -1,4 +1,18 @@
 Datestr::Application.routes.draw do
+resources :users
+
+  match '/' => 'home#index', :via => :get
+  match '/about' => 'home#about', :via => :get
+
+  match '/login' => 'session#new', :via => :get
+  match '/login' => 'session#create', :via => :post
+  match '/logout' => 'session#destroy', :via => :get
+
+  match '/messages' => 'messages#index', :via => :get
+
+  match '/browse' => 'browse#index', :via => :get
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
