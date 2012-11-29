@@ -1,0 +1,37 @@
+/*
+ *= require 'css/bootstrap.css'
+ */
+
+.row {
+	margin-top: 20px;
+}
+
+.blue {
+	background-color: blue;
+	height: 100px;
+}
+
+.yellow {
+	background-color: yellow;
+	height: 400px;
+}
+
+.green {
+	background-color: green;
+	height: 400px;
+}
+
+.orange {
+	background-color: orange;
+	height: 200px;	
+}
+
+.black {
+	background-color: black;
+	height: 200px;	
+}
+
+.red {
+	background-color: red;
+	height: 200px;	
+}
